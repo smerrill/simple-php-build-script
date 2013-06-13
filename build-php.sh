@@ -2,6 +2,8 @@
 
 PHP_VERSION="php-5.3.26"
 
+# @TODO: Install lots of -devel dependencies.
+
 mkdir -p {cache,build,src}
 
 [[ -f cache/$PHP_VERSION.tar.gz ]] || {
